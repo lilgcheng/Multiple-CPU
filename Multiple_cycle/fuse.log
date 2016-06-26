@@ -1,0 +1,63 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Verliog_practice/Multiple_cycle/TOP1_tb_isim_beh.exe" -prj "C:/Verliog_practice/Multiple_cycle/TOP1_tb_beh.prj" "work.TOP1_tb" "work.glbl" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Verliog_practice/Multiple_cycle/Shift_left2_26to28.v" into library work
+Analyzing Verilog file "C:/Verliog_practice/Multiple_cycle/Shift_left2.v" into library work
+Analyzing Verilog file "C:/Verliog_practice/Multiple_cycle/SE.v" into library work
+Analyzing Verilog file "C:/Verliog_practice/Multiple_cycle/RF.v" into library work
+Analyzing Verilog file "C:/Verliog_practice/Multiple_cycle/PC.v" into library work
+Analyzing Verilog file "C:/Verliog_practice/Multiple_cycle/OR.v" into library work
+Analyzing Verilog file "C:/Verliog_practice/Multiple_cycle/MUX41.v" into library work
+Analyzing Verilog file "C:/Verliog_practice/Multiple_cycle/MUX31.v" into library work
+Analyzing Verilog file "C:/Verliog_practice/Multiple_cycle/Mux21_PCtoMem.v" into library work
+Analyzing Verilog file "C:/Verliog_practice/Multiple_cycle/MUX21_MDRtoRF.v" into library work
+Analyzing Verilog file "C:/Verliog_practice/Multiple_cycle/MUX21_IRtoRF.v" into library work
+Analyzing Verilog file "C:/Verliog_practice/Multiple_cycle/MUX21_ARtoALU.v" into library work
+Analyzing Verilog file "C:/Verliog_practice/Multiple_cycle/Mem.v" into library work
+Analyzing Verilog file "C:/Verliog_practice/Multiple_cycle/MDR.v" into library work
+Analyzing Verilog file "C:/Verliog_practice/Multiple_cycle/IR.v" into library work
+Analyzing Verilog file "C:/Verliog_practice/Multiple_cycle/CU.v" into library work
+Analyzing Verilog file "C:/Verliog_practice/Multiple_cycle/BR.v" into library work
+Analyzing Verilog file "C:/Verliog_practice/Multiple_cycle/AR.v" into library work
+Analyzing Verilog file "C:/Verliog_practice/Multiple_cycle/AND.v" into library work
+Analyzing Verilog file "C:/Verliog_practice/Multiple_cycle/ALU_control.v" into library work
+Analyzing Verilog file "C:/Verliog_practice/Multiple_cycle/ALUOut.v" into library work
+Analyzing Verilog file "C:/Verliog_practice/Multiple_cycle/ALU.v" into library work
+Analyzing Verilog file "C:/Verliog_practice/Multiple_cycle/Top.v" into library work
+Analyzing Verilog file "C:/Verliog_practice/Multiple_cycle/TOP1_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module PC
+Compiling module Mux21_PCtoMem
+Compiling module Mem
+Compiling module IR
+Compiling module MDR
+Compiling module CU
+Compiling module MUX21_IRtoRF
+Compiling module MUX21_MDRtoRF
+Compiling module RF
+Compiling module SE
+Compiling module AR
+Compiling module BR
+Compiling module Shift_left2
+Compiling module MUX21_ARtoALU
+Compiling module MUX41
+Compiling module Shift_left2_26to28
+Compiling module ALU
+Compiling module ALU_control
+Compiling module ALUOut
+Compiling module MUX31
+Compiling module AND
+Compiling module OR
+Compiling module Top
+Compiling module TOP1_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 10 sub-compilation(s) to finish...
+Compiled 25 Verilog Units
+Built simulation executable C:/Verliog_practice/Multiple_cycle/TOP1_tb_isim_beh.exe
+Fuse Memory Usage: 29284 KB
+Fuse CPU Usage: 764 ms

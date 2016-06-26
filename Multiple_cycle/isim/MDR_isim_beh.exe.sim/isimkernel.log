@@ -1,0 +1,28 @@
+Command line:
+   MDR_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  61074
+
+Thu Jun 02 16:02:55 2016
+
+
+ Elaboration Time: 0.09375 sec
+
+ Current Memory Usage: 852.742 Meg
+
+ Total Signals          : 14
+ Total Nets             : 77
+ Total Signal Drivers   : 6
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 8
+ Total Traceable Variables  : 20
+ Total Scalar Nets and Variables : 221
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 852.742 Meg
+
+Thu Jun 02 16:02:58 2016
+
